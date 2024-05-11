@@ -14,7 +14,7 @@ Desafio 1 - Frontend Mentor
 </center>
 
 <div style="display: flex; gap: 10px">
-    <img alt="Gif do projeto no desktop" src="assets/gif/gif-desktop.gif">
+    <img alt="Gif do projeto no desktop" src="assets/gif/gif-desktop.gif" width="450px">
     <img alt="Gif do projeto no mobile" src="assets/gif/gif-mobile.gif" width="200px">
 </div>
 
