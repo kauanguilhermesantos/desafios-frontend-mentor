@@ -1,21 +1,27 @@
-<h1>
+<div align="center">
+<h1> 
 
-![Frontend Mentor logo](/frontend-logo/favicon-frontend-mentor-32x32.png)
-Desafio 1 - Frontend Mentor
-
+![Frontend Mentor logo](/frontend-logo/favicon-frontend-mentor-32x32.png) Desafio 1 - Página de receita
 </h1>
+</div>
 
-<center>
-
+<div align="center">
+   
 ![Frontend Mentor logo](/frontend-logo/frontend-mentor-logo.png)
+
+</div>
+
+<div align="center">
 
 ![Progress bar](https://progress-bar.dev/100/?title=completed)
 
-</center>
+</div>
 
-<div style="display: flex; gap: 10px">
-    <img alt="Gif do projeto no desktop" src="assets/gif/gif-desktop.gif" width="450px">
-    <img alt="Gif do projeto no mobile" src="assets/gif/gif-mobile.gif" width="200px">
+<div align="center">
+    <div style="display: flex; gap: 10px; justify-content:center">
+        <img alt="Gif do projeto no desktop" src="assets/gif/gif-desktop.gif" width="450px">
+        <img alt="Gif do projeto no mobile" src="assets/gif/gif-mobile.gif" width="200px">
+    </div>
 </div>
 
 <h2>💻 Sobre o projeto</h2>
