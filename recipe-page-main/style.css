@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    /*Cores*/
+    --cor-branca: #ffffff;
+    --cor-titulo-e-rodape: #2A2A2A;
+    --cor-texto: #54514f;
+    --cor-subtitulo-e-tabela: #814332;
+    /*Fontes*/
+    --fonte-título: "Young Serif", sans-serif;
+    --fonte-texto: "Outfit", sans-serif;
+    --peso-fonte-texto: 400;
+    --tamanho-fonte-texto: 0,875em;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -17,7 +30,7 @@ body {
 .container {
     margin: 10% 22%;
     padding: 50px;
-    background-color: #ffffff;
+    background-color: var(--cor-branca);
     border-radius: 30px;
 }
 
@@ -38,15 +51,15 @@ img {
 }
 
 .introducao-titulo {
-    font-family: "Young Serif", sans-serif;
-    color: #2A2A2A;
+    font-family: var(--fonte-título);
+    color: var(--cor-titulo-e-rodape);
 }
 
 .introducao-paragrafo {
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    font-size: 0,875em;
-    color: #54514f;
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    font-size: var(--tamanho-fonte-texto);
+    color: var(--cor-texto);
 }
 
 .preparacao {
@@ -56,7 +69,7 @@ img {
 }
 
 .preparacao-titulo {
-    font-family: "Outfit", sans-serif;
+    font-family: var(--fonte-texto);
     font-weight: 600;
     font-size: 1em;
     margin-bottom: 10px;
@@ -68,10 +81,10 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    font-size: 0,875em;
-    color: #54514f;
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    font-size: var(--tamanho-fonte-texto);
+    color: var(--cor-texto);
 }
 
 .ingredientes {
@@ -79,9 +92,9 @@ img {
 }
 
 .ingredientes-titulo, .instrucoes-titulo, .nutricao-titulo {
-    font-family: "Young Serif", sans-serif;
-    font-weight: 400;
-    color: #814332;
+    font-family: var(--fonte-título);
+    font-weight: var(--peso-fonte-texto);
+    color: var(--cor-subtitulo);
     margin-bottom: 20px;
 }
 
@@ -90,10 +103,10 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    font-size: 0,875em;
-    color: #54514f;
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    font-size: var(--tamanho-fonte-texto);
+    color: var(--cor-texto);
 }
 
 .linha-divisoria {
@@ -101,16 +114,16 @@ img {
 }
 
 .nutricao-texto {
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    font-size: 0,875em;
-    color: #54514f;
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    font-size: var(--tamanho-fonte-texto);
+    color: var(--cor-texto);
 }
 
 .etiqueta-nutricional {
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    color: #54514f;
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    color: var(--cor-texto);
 }
 
 .item-nutricional {
@@ -120,27 +133,27 @@ img {
 }
 
 .categoria-nutricional {
-    font-size: 0,875em;
+    font-size: var(--tamanho-fonte-texto);
     margin-right: 40%;
 }
 
 .valor-nutricional {
     margin-right: 40%;
-    color: #814332;
+    color: var(--cor-subtitulo-e-tabela);
 }
 
 .rodape {
     padding: 10px;
     text-align: center;
-    background-color: #2A2A2A;
-    color: #ffffff;
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    font-size: 0,875em;
+    background-color: var(--cor-titulo-e-rodape);
+    color: var(--cor-branca);
+    font-family: var(--fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    font-size: var(--tamanho-fonte-texto);
 }
 
 a {
-    color: #ffffff;
+    color: var(--cor-branca);
 }
 
 @media only screen and (max-width: 690px) {
@@ -148,7 +161,7 @@ a {
         margin: 0;
         padding: 0 0 10%;
         border-radius: 0;
-        background-color: #ffffff;
+        background-color: var(--cor-branca);
     }
     
     img {
