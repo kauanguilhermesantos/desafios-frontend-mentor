@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*cores*/
+    --cor-branca: #ffffff;
+    --cor-verde: #C4F82A;
+    /*fontes*/
+    --fonte-principal: "Inter", sans-serif;
+    --tamanho-principal-fonte: 0,875em;
+    --peso-principal-fonte: 600;
+}
+
+body {
+    background-color: #141414;
+}
+
+.container {
+    background-color: #1f1f1f;
+    margin: 10% 34%;
+    padding: 26px;
+    border-radius: 8px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 80px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
+
+.nome-de-perfil {
+    font-family: var(--fonte-principal);
+    font-size: 1,5em;
+    font-weight: 500;
+    color: var(--cor-branca);
+    padding-bottom: 5px;
+}
+
+.endereco {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-principal-fonte);
+    font-weight: var(--peso-principal-fonte);
+    color: var(--cor-verde);
+}
+
+.frase {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-principal-fonte);
+    font-weight: 400;
+    color: var(--cor-branca);
+    padding: 16px 16px 0;
+    text-align: center;
+}
+
+.container-links {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+ul li {
+    font-family: var(--fonte-principal);
+    font-size: 0,75em;
+    font-weight: var(--peso-principal-fonte);
+    color: var(--cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.links-botoes {
+    text-decoration: none;
+}
+
+.botoes:hover {
+    background-color: var(--cor-verde);
+}
+
+.rodape {
+    background-color: #333333;
+    color: var(--cor-branca);
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-principal-fonte);
+    font-weight: 400;
+}
+
+.creditos-rodape {
+    color: var(--cor-branca);
+}
+
+@media only screen and (max-width: 914px) {
+    .container {
+        margin: 10%;
+    }
+}
