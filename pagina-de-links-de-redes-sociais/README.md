@@ -27,7 +27,7 @@
     </ul>
 <h2>👀 Deploy do projeto</h2>
     <ul>
-        <li>Para ver a página funcionando, <a href="#" target="_blank">clique aqui</a>.</li>
+        <li>Para ver a página funcionando, <a href="https://k1-social-links-profile-main.vercel.app" target="_blank">clique aqui</a>.</li>
     </ul>
 
 <h2>🛠️ Ferramentas utilizadas</h2>
