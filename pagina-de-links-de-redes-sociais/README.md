@@ -23,7 +23,8 @@
     <p>O desafio proposto tem o objetivo de treinar as habilidades em <strong>HTML</strong> e <strong>CSS</strong>, por meio da criação da página de redes sociais de um perfil.</p>
     <p>Assim, foram utilizados conceitos de <strong>Flexbox</strong>, <strong>tags semânticas</strong> em HTML, <strong>estrutura básica</strong> de um página, <strong>importação de fonte</strong>, <strong>responsividade</strong> e <strong>variáveis</strong> em CSS.</p>
     <ul>
-        <li>Para acessar o link do desafio do Frontend Mentor, <a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank">clique aqui.</a></li>
+        <li>Para acessar o link do desafio do Frontend Mentor, <a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank">clique aqui</a>.</li>
+        <li><strong>OBS.:</strong> Os botões não estão funcionando.</li>
     </ul>
 <h2>👀 Deploy do projeto</h2>
     <ul>
