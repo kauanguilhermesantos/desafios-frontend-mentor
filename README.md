@@ -30,6 +30,7 @@
 
 <div align="center">
 
+![Newbie](https://img.shields.io/badge/Newbie-6ABECD)
 ![Progress bar](https://progress-bar.dev/100/?title=Completed)
 
 </div>
@@ -59,6 +60,7 @@
 
 <div align="center">
 
+![Newbie](https://img.shields.io/badge/Newbie-6ABECD)
 ![Progress bar](https://progress-bar.dev/100/?title=completed)
 
 </div>
