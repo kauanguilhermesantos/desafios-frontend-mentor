@@ -14,7 +14,13 @@
 
 <p>Este repositório foi criado para armazenar minhas soluções para os desafios do site <a href="https://www.frontendmentor.io">Frontend Mentor</a>. O Frontend Mentor oferece uma variedade de desafios práticos para aprimorar suas habilidades em HTML, CSS, JavaScript e API. Os desafios são categorizados por nível de dificuldade (Newbie, Junior, Intermediate, Advanced e Guru), tornando-os ideais para desenvolvedores de todos os níveis de experiência.</p>
 
-<h2>✅ Desafio 1 - Página de receita</h2>
+<h2>📋 Lista de Desafios</h2>
+
+- <a href="#-desafio-1---página-de-receita">Desafio 1 - Página de receita</a>
+- <a href="#-desafio-2---página-de-links-de-redes-sociais">Desafio 2 - Link tree</a>
+- <a href="#-desafio-3---card-de-preview-de-um-blog">Desafio 3 - Card de preview de um blog</a>
+
+## ✅ Desafio 1 - Página de receita
 
 <div align="center">
 
@@ -34,7 +40,7 @@
 - <strong>Link do deploy:</strong> <a href="https://k1-recipepagemain.vercel.app">Clique aqui.</a>
 - <strong>Link do repositório:</strong> <a href="https://github.com/kauanguilhermesantos/desafios-frontend-mentor/tree/main/pagina-de-receita">Clique aqui.</a>
 
-<h2>✅ Desafio 2 - Página de links de redes sociais</h2>
+## ✅ Desafio 2 - Página de links de redes sociais
 
 <div align="center">
 
@@ -54,7 +60,7 @@
 - <strong>Link do deploy:</strong> <a href="https://k1-social-links-profile-main.vercel.app">Clique aqui.</a>
 - <strong>Link do repositório:</strong> <a href="https://github.com/kauanguilhermesantos/desafios-frontend-mentor/tree/main/pagina-de-links-de-redes-sociais">Clique aqui.</a>
 
-<h2>🔄 Desafio 3 - Blog preview card</h2>
+## 🔄 Desafio 3 - Card de preview de um blog
 
 - <strong>Link do desafio:</strong> <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS">Clique aqui.</a>
 
